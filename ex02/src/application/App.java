@@ -55,7 +55,7 @@ public class App {
 
         System.out.println("\nPRICE TAGS:");
         for (Product each : products) {
-            System.out.println(each.getName() + " $ " + each.getPrice() + " (" + each.priceTag() + ")");
+            System.out.println(each.priceTag());
         }
 
         sc.close();
